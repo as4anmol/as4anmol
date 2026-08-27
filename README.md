@@ -1,121 +1,277 @@
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--           ANMOL KUMAR SINGH — ADVANCED GITHUB PROFILE          -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<!-- SNAKE ANIMATION — shows commits being eaten as a snake game -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/as4anmol/as4anmol/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/as4anmol/as4anmol/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/as4anmol/as4anmol/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
+
+<!-- HERO HEADER -->
 <div align="center">
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:000000,50:130F40,100:000000&height=160&section=header&text=ANMOL%20KUMAR%20SINGH&fontSize=42&fontColor=ffffff&animation=blinking&fontAlignY=55&stroke=7B68EE&strokeWidth=2" width="100%"/>
+</div>
 
-<!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Anmol%20Kumar%20Singh&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%7C%20Problem%20Solver%20%7C%20Builder&descAlignY=60&descAlign=50" width="100%"/>
-
-<!-- Typing Animation -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7B68EE&center=true&vCenter=true&width=600&lines=Hey+there%2C+I'm+Anmol+%F0%9F%91%8B;Passionate+Software+Developer+%F0%9F%9A%80;Learning+DSA+%7C+React+%7C+JavaScript+%E2%9A%A1;Always+Building+Something+New+%F0%9F%94%A5" alt="Typing SVG" /></a>
+<!-- TERMINAL TYPING EFFECT -->
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2500&pause=800&color=00FF41&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=650&height=45&lines=%24+whoami+%E2%86%92+Anmol+Kumar+Singh;%24+role+%E2%86%92+Software+Developer+%7C+DSA+Enthusiast;%24+stack+%E2%86%92+C%2B%2B+%7C+Java+%7C+JS+%7C+React+%7C+Node;%24+status+%E2%86%92+Building+something+awesome+%F0%9F%94%A5;%24+location+%E2%86%92+India+%F0%9F%87%AE%F0%9F%87%B3" alt="Terminal Typing" />
+</div>
 
 <br/>
 
-<!-- Profile Views + Social Badges -->
-<p>
-  <img src="https://komarev.com/ghpvc/?username=as4anmol&label=Profile+Views&color=7B68EE&style=flat-square" alt="Profile views"/>
-  &nbsp;
-  <a href="https://www.leetcode.com/as4anmol"><img src="https://img.shields.io/badge/LeetCode-as4anmol-FFA116?style=flat-square&logo=leetcode&logoColor=white"/></a>
-  &nbsp;
-  <a href="https://www.hackerrank.com/as4techanmol"><img src="https://img.shields.io/badge/HackerRank-as4techanmol-2EC866?style=flat-square&logo=hackerrank&logoColor=white"/></a>
-  &nbsp;
-  <a href="mailto:as4anmol@gmail.com"><img src="https://img.shields.io/badge/Gmail-as4anmol-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
-</p>
+<!-- METRICS BADGES ROW -->
+<div align="center">
+
+[![Profile Views](https://komarev.com/ghpvc/?username=as4anmol&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/as4anmol)
+[![Years Badge](https://badges.pufler.dev/years/as4anmol?style=for-the-badge&color=blueviolet&logo=github)](https://github.com/as4anmol)
+[![Repos Badge](https://badges.pufler.dev/repos/as4anmol?style=for-the-badge&color=blueviolet&logo=github)](https://github.com/as4anmol?tab=repositories)
+[![Commits Badge](https://badges.pufler.dev/commits/monthly/as4anmol?style=for-the-badge&color=blueviolet&logo=github)](https://github.com/as4anmol)
 
 </div>
 
+<br/>
+
 ---
 
-## 🧠 About Me
+<!-- ABOUT — TERMINAL STYLE CODE BLOCK -->
 
-```yaml
-name: Anmol Kumar Singh
-role: Software Developer
-location: India 🇮🇳
-currently_learning:
-  - Data Structures & Algorithms
-  - JavaScript (ES6+)
-  - React.js
-expertise:
-  - C / C++
-  - Java
-  - DBMS
-open_to: Collaborations, Open Source, New Opportunities
-reach_me_at: as4anmol@gmail.com
-fun_fact: I turn ☕ into code and bugs into features 😄
+```javascript
+// ┌─────────────────────────────────────────────────────┐
+// │              DEVELOPER.profile.js                   │
+// └─────────────────────────────────────────────────────┘
+
+const Anmol = {
+  name        : "Anmol Kumar Singh",
+  title       : "Software Developer 🚀",
+  location    : "India 🇮🇳",
+  
+  currently   : ["DSA Grind 💪", "JavaScript Deep Dive ⚡", "React.js 🌐"],
+  expertise   : ["C / C++", "Java", "DBMS", "Problem Solving"],
+  
+  openTo      : ["Open Source", "Collaboration", "New Challenges"],
+  contact     : "as4anmol@gmail.com",
+  
+  funFact     : "I debug with console.log and I'm not ashamed 😅",
+  
+  philosophy  : () => "First, solve the problem. Then, write the code.",
+};
+
+module.exports = Anmol;
 ```
 
 ---
 
-## ⚡ Tech Stack
+<!-- SKILLS MATRIX — SVG SKILL BARS -->
+## 🛠️ Skills & Proficiency
 
 <div align="center">
+
+| Domain | Technologies | Level |
+|:---|:---|:---:|
+| **Systems** | C, C++ | `████████░░` 80% |
+| **Backend** | Java, Node.js, Express | `███████░░░` 70% |
+| **Frontend** | HTML, CSS, JS, React | `██████░░░░` 65% |
+| **Database** | MySQL, MongoDB, Oracle | `███████░░░` 70% |
+| **CS Core** | DSA, DBMS, OOP | `████████░░` 80% |
+| **Scripting** | Python | `█████░░░░░` 55% |
+
+</div>
+
+---
+
+<!-- TECH STACK — GROUPED ANIMATED BADGES -->
+## ⚡ Tech Arsenal
+
+<div align="center">
+
+<table>
+<tr>
+<td valign="top" width="33%">
 
 ### 💻 Languages
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+<div align="center">
 
-### 🌐 Frontend
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-### 🔧 Backend & Databases
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+</div>
+</td>
+<td valign="top" width="33%">
+
+### 🌐 Web & Frameworks
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+
+</div>
+</td>
+<td valign="top" width="33%">
+
+### 🗄️ Databases & Tools
+<div align="center">
+
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+
+</div>
+</td>
+</tr>
+</table>
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+<!-- COMPETITIVE PROGRAMMING SECTION -->
+## 🏅 Competitive Programming
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=as4anmol&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7B68EE&icon_color=7B68EE&text_color=ffffff" height="180" alt="GitHub Stats"/>
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=as4anmol&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7B68EE&text_color=ffffff" height="180" alt="Top Languages"/>
+
+<a href="https://leetcode.com/as4anmol/">
+  <img src="https://leetcard.jacoblin.cool/as4anmol?theme=dark&font=Noto%20Sans&ext=heatmap&border=0&radius=10" alt="LeetCode Stats" width="49%"/>
+</a>
+&nbsp;
+<a href="https://www.hackerrank.com/as4techanmol">
+  <img src="https://img.shields.io/badge/HackerRank-Stars%20%E2%AD%90%E2%AD%90%E2%AD%90-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank"/>
+</a>
+
 </div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=as4anmol&theme=tokyonight&hide_border=true&background=0d1117&stroke=7B68EE&ring=7B68EE&fire=FF6B6B&currStreakLabel=7B68EE" width="70%" alt="GitHub Streak"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=as4anmol&bg_color=0d1117&color=7B68EE&line=7B68EE&point=ffffff&area=true&hide_border=true" width="100%" alt="Contribution Graph"/>
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=as4anmol&theme=discord&no-frame=true&no-bg=true&margin-w=4&column=7" width="100%" alt="Trophies"/>
-</div>
-
----
-
-## 🌐 Connect With Me
+<br/>
 
 <div align="center">
 
-[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/as4techanmol)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://www.leetcode.com/as4anmol)
-[![HackerEarth](https://img.shields.io/badge/HackerEarth-2C3454?style=for-the-badge&logo=hackerearth&logoColor=white)](https://www.hackerearth.com/@as4techanmol)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:as4anmol@gmail.com)
+| Platform | Handle | Focus |
+|:---:|:---:|:---:|
+| 🟡 LeetCode | [as4anmol](https://leetcode.com/as4anmol/) | DSA Problems |
+| 🟢 HackerRank | [as4techanmol](https://hackerrank.com/as4techanmol) | Certifications |
+| 🔵 HackerEarth | [@as4techanmol](https://hackerearth.com/@as4techanmol) | Contests |
 
 </div>
 
 ---
 
+<!-- GITHUB STATS — ADVANCED LAYOUT -->
+## 📊 GitHub Analytics
+
 <div align="center">
 
-### 💬 *"Code is like humor. When you have to explain it, it's bad."*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=as4anmol&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0D0D0D&title_color=00FF41&icon_color=00FF41&text_color=CCCCCC&border_radius=10&include_all_commits=true&count_private=true" height="175" alt="GitHub Stats"/>
+&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=as4anmol&layout=donut&theme=chartreuse-dark&hide_border=true&bg_color=0D0D0D&title_color=00FF41&text_color=CCCCCC&border_radius=10&langs_count=8" height="175" alt="Top Languages"/>
 
 </div>
+
+<div align="center">
+<img src="https://streak-stats.demolab.com?user=as4anmol&theme=terminal&hide_border=true&background=0D0D0D&stroke=00FF41&ring=00FF41&fire=FF6B6B&currStreakLabel=00FF41&sideLabels=CCCCCC&dates=888888&border_radius=10" width="65%" alt="GitHub Streak"/>
+</div>
+
+<br/>
+
+<!-- CONTRIBUTION GRAPH -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=as4anmol&bg_color=0D0D0D&color=00FF41&line=00FF41&point=FFFFFF&area_color=130F40&area=true&hide_border=true&radius=10&custom_title=Anmol's%20Contribution%20Timeline" width="100%" alt="Contribution Graph"/>
+
+---
+
+<!-- TROPHIES -->
+## 🏆 Achievements
+
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=as4anmol&theme=matrix&no-frame=true&no-bg=true&margin-w=6&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B" width="100%" alt="Trophies"/>
+</div>
+
+---
+
+<!-- CURRENTLY DOING SECTION — ADVANCED -->
+## 🔭 Currently Working On
+
+```
+  ╔══════════════════════════════════════════════════════════╗
+  ║  📌 DSA Mastery          ████████████░░░░  75% complete  ║
+  ║  📌 JavaScript ES6+      █████████░░░░░░░  60% complete  ║
+  ║  📌 React.js Mastery     ███████░░░░░░░░░  45% complete  ║
+  ║  📌 MERN Stack Projects  ████░░░░░░░░░░░░  30% complete  ║
+  ╚══════════════════════════════════════════════════════════╝
+```
+
+---
+
+<!-- CONNECT SECTION -->
+## 🌐 Find Me Online
+
+<div align="center">
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=FFA116)](https://www.leetcode.com/as4anmol)
+[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/as4techanmol)
+[![HackerEarth](https://img.shields.io/badge/HackerEarth-2C3454?style=for-the-badge&logo=HackerEarth&logoColor=white)](https://www.hackerearth.com/@as4techanmol)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:as4anmol@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/as4anmol)
+
+</div>
+
+---
+
+<!-- RANDOM DEV QUOTE -->
+## 💭 Today's Dev Quote
+
+<div align="center">
+
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=The+best+error+message+is+the+one+that+never+shows+up&author=Thomas+Fuchs)](https://github.com/piyushsuthar/github-readme-quotes)
+
+</div>
+
+---
+
+<!-- FOOTER WAVE -->
+<div align="center">
+
+**⚡ Visitors who viewed this profile also checked out my repos — go ahead, I dare you 😏**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:130F40,100:000000&height=100&section=footer&fontSize=16&fontColor=00FF41" width="100%"/>
+
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!--  SETUP REQUIRED — READ BELOW               -->
+<!--                                            -->
+<!--  To enable the SNAKE animation:            -->
+<!--  1. Go to your repo → Actions tab          -->
+<!--  2. New workflow → set up yourself          -->
+<!--  3. Paste this YAML:                        -->
+<!--                                            -->
+<!--  name: Generate Snake                      -->
+<!--  on:                                       -->
+<!--    schedule:                               -->
+<!--      - cron: "0 */12 * * *"               -->
+<!--    workflow_dispatch:                      -->
+<!--  jobs:                                     -->
+<!--    build:                                  -->
+<!--      runs-on: ubuntu-latest               -->
+<!--      steps:                               -->
+<!--        - uses: Platane/snk@v3             -->
+<!--          with:                            -->
+<!--            github_user_name: as4anmol    -->
+<!--            outputs: |                    -->
+<!--              dist/github-contribution-grid-snake.svg                      -->
+<!--              dist/github-contribution-grid-snake-dark.svg?palette=github-dark -->
+<!--        - uses: crazy-max/ghaction-github-pages@v3 -->
+<!--          with:                            -->
+<!--            target_branch: output          -->
+<!--            build_dir: dist               -->
+<!--          env:                            -->
+<!--            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} -->
+<!-- ═══════════════════════════════════════════ -->
 
 
