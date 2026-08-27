@@ -35,30 +35,61 @@
 
 ---
 
-<!-- ABOUT — TERMINAL STYLE CODE BLOCK -->
+<!-- ABOUT — ADVANCED OOP PATTERN -->
 
-```javascript
-// ┌─────────────────────────────────────────────────────┐
-// │              DEVELOPER.profile.js                   │
-// └─────────────────────────────────────────────────────┘
+```typescript
+/*
+ * ╔══════════════════════════════════════════════════════════════╗
+ * ║             @author  : Anmol Kumar Singh                    ║
+ * ║             @version : 2.0.0  [stable]                      ║
+ * ║             @license : MIT                                   ║
+ * ╚══════════════════════════════════════════════════════════════╝
+ */
 
-const Anmol = {
-  name        : "Anmol Kumar Singh",
-  title       : "Software Developer 🚀",
-  location    : "India 🇮🇳",
-  
-  currently   : ["DSA Grind 💪", "JavaScript Deep Dive ⚡", "React.js 🌐"],
-  expertise   : ["C / C++", "Java", "DBMS", "Problem Solving"],
-  
-  openTo      : ["Open Source", "Collaboration", "New Challenges"],
-  contact     : "as4anmol@gmail.com",
-  
-  funFact     : "I debug with console.log and I'm not ashamed 😅",
-  
-  philosophy  : () => "First, solve the problem. Then, write the code.",
-};
+import { Developer, Stack, Status } from "@types/universe";
 
-module.exports = Anmol;
+interface IAnmol extends Developer {
+  grind()   : Promise<void>;
+  ship()    : never;           // TODO: sleep() not implemented yet
+  debug()   : string;
+}
+
+class AnmolKumarSingh implements IAnmol {
+  readonly name     = "Anmol Kumar Singh"        as const;
+  readonly os       = "India 🇮🇳"               as const;
+  readonly uptime   = new Date("2002-01-01");
+
+  private _status   : Status = Status.BUILDING;
+
+  public stack: Stack = {
+    languages  : ["C++", "Java", "JavaScript", "Python"],
+    frontend   : ["React.js", "HTML5", "CSS3"],
+    backend    : ["Node.js", "Express.js"],
+    databases  : ["MongoDB", "MySQL", "Oracle"],
+    currently  : ["DSA", "React", "MERN Stack"],
+  };
+
+  async grind(): Promise<void> {
+    while (this._status !== Status.DONE) {
+      await this.solve("LeetCode");
+      await this.learn("something new");
+      await this.commit();
+      // sleep() was never added. won't fix.
+    }
+  }
+
+  debug = (): string =>
+    `console.log("still the most powerful debugger ⚡")`;
+
+  ship = (): never => {
+    throw new Error("burnout not found. shipping anyway 🚀");
+  };
+
+  contact = (): string => "as4anmol@gmail.com";
+}
+
+export default new AnmolKumarSingh();
+//  └─ singleton. one of a kind. just like the dev. 😎
 ```
 
 ---
@@ -272,6 +303,4 @@ module.exports = Anmol;
 <!--            build_dir: dist               -->
 <!--          env:                            -->
 <!--            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} -->
-<!-- ═══════════════════════════════════════════ -->
-
 
