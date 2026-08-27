@@ -35,62 +35,81 @@
 
 ---
 
-<!-- ABOUT — ADVANCED OOP PATTERN -->
+<!-- ═══════════════════════ ABOUT CARD ═══════════════════════ -->
 
-```typescript
-/*
- * ╔══════════════════════════════════════════════════════════════╗
- * ║             @author  : Anmol Kumar Singh                    ║
- * ║             @version : 2.0.0  [stable]                      ║
- * ║             @license : MIT                                   ║
- * ╚══════════════════════════════════════════════════════════════╝
- */
+<table align="center" width="100%">
+<tr>
+<!-- LEFT: Avatar + Status + Buttons -->
+<td width="35%" align="center" valign="top">
 
-import { Developer, Stack, Status } from "@types/universe";
+<br/>
 
-interface IAnmol extends Developer {
-  grind()   : Promise<void>;
-  ship()    : never;           // TODO: sleep() not implemented yet
-  debug()   : string;
-}
+<img src="https://avatars.githubusercontent.com/as4anmol" width="130" style="border-radius:50%" alt="Anmol"/>
 
-class AnmolKumarSingh implements IAnmol {
-  readonly name     = "Anmol Kumar Singh"        as const;
-  readonly os       = "India 🇮🇳"               as const;
-  readonly uptime   = new Date("2002-01-01");
+<br/><br/>
 
-  private _status   : Status = Status.BUILDING;
+**Anmol Kumar Singh**
+<br/>
+`Software Developer` · `India 🇮🇳`
 
-  public stack: Stack = {
-    languages  : ["C++", "Java", "JavaScript", "Python"],
-    frontend   : ["React.js", "HTML5", "CSS3"],
-    backend    : ["Node.js", "Express.js"],
-    databases  : ["MongoDB", "MySQL", "Oracle"],
-    currently  : ["DSA", "React", "MERN Stack"],
-  };
+<br/>
 
-  async grind(): Promise<void> {
-    while (this._status !== Status.DONE) {
-      await this.solve("LeetCode");
-      await this.learn("something new");
-      await this.commit();
-      // sleep() was never added. won't fix.
-    }
+<!-- STATUS BADGE -->
+![Status](https://img.shields.io/badge/Status-Building%20🔥-00FF41?style=flat-square&labelColor=0D0D0D)
+![Open To](https://img.shields.io/badge/Open%20To-Collaborate-7B68EE?style=flat-square&labelColor=0D0D0D)
+
+<br/><br/>
+
+<!-- SOCIAL BUTTONS -->
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/as4anmol)
+[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://hackerrank.com/as4techanmol)
+[![HackerEarth](https://img.shields.io/badge/HackerEarth-2C3454?style=for-the-badge&logo=hackerearth&logoColor=white)](https://hackerearth.com/@as4techanmol)
+[![Gmail](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:as4anmol@gmail.com)
+
+<br/>
+
+</td>
+
+<!-- RIGHT: JSON INFO PANEL -->
+<td width="65%" valign="top">
+
+```json
+{
+  "developer"  : "Anmol Kumar Singh",
+  "version"    : "2.0.0-stable",
+  "license"    : "MIT",
+  "location"   : "India 🇮🇳",
+  "status"     : "🟢 actively building",
+
+  "stack": {
+    "languages" : ["C++", "Java", "JavaScript", "Python"],
+    "frontend"  : ["React.js", "HTML5", "CSS3"],
+    "backend"   : ["Node.js", "Express.js"],
+    "databases" : ["MongoDB", "MySQL", "Oracle"]
+  },
+
+  "currently_learning" : ["DSA 💪", "React ⚛️", "MERN Stack 🌐"],
+  "open_to"            : ["Open Source", "Collaboration", "Internships"],
+  "contact"            : "as4anmol@gmail.com",
+
+  "fun_facts": [
+    "I debug with console.log and I'm not ashamed ⚡",
+    "sleep() is not in my dependencies 😅",
+    "git commit -m 'fixed everything' — trust me bro 😂"
+  ],
+
+  "philosophy" : "First, solve the problem. Then, write the code.",
+  "currently"  : {
+    "music"    : "lo-fi hip hop 🎧",
+    "drinking" : "coffee ☕ × ∞",
+    "mood"     : "in the zone 🚀"
   }
-
-  debug = (): string =>
-    `console.log("still the most powerful debugger ⚡")`;
-
-  ship = (): never => {
-    throw new Error("burnout not found. shipping anyway 🚀");
-  };
-
-  contact = (): string => "as4anmol@gmail.com";
 }
-
-export default new AnmolKumarSingh();
-//  └─ singleton. one of a kind. just like the dev. 😎
 ```
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -303,4 +322,3 @@ export default new AnmolKumarSingh();
 <!--            build_dir: dist               -->
 <!--          env:                            -->
 <!--            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} -->
-
