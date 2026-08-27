@@ -2,16 +2,15 @@
 <!--           ANMOL KUMAR SINGH — ADVANCED GITHUB PROFILE          -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-<!-- SNAKE ANIMATION — shows commits being eaten as a snake game -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/as4anmol/as4anmol/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/as4anmol/as4anmol/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/as4anmol/as4anmol/output/github-contribution-grid-snake.svg" width="100%" />
-</picture>
+<!-- ANIMATED HEADER BANNER — works instantly, zero setup needed -->
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0D0D0D,50:130F40,100:0D0D0D&height=200&section=header&text=ANMOL%20KUMAR%20SINGH&fontSize=45&fontColor=00FF41&animation=fadeIn&fontAlignY=55&desc=Software%20Developer%20%7C%20DSA%20%7C%20MERN%20Stack&descSize=16&descAlignY=75&descAlign=50&stroke=00FF41&strokeWidth=1" width="100%"/>
 
-<!-- HERO HEADER -->
+<!-- ANIMATED DIVIDER LINE — pulses automatically -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+<!-- ANIMATED CODING GIF -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:000000,50:130F40,100:000000&height=160&section=header&text=ANMOL%20KUMAR%20SINGH&fontSize=42&fontColor=ffffff&animation=blinking&fontAlignY=55&stroke=7B68EE&strokeWidth=2" width="100%"/>
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="380" alt="Coding gif"/>
 </div>
 
 <!-- TERMINAL TYPING EFFECT -->
@@ -70,42 +69,38 @@
 
 </td>
 
-<!-- RIGHT: JSON INFO PANEL -->
+<!-- RIGHT: VISUAL INFO PANEL -->
 <td width="65%" valign="top">
 
-```json
-{
-  "developer"  : "Anmol Kumar Singh",
-  "version"    : "2.0.0-stable",
-  "license"    : "MIT",
-  "location"   : "India 🇮🇳",
-  "status"     : "🟢 actively building",
+<br/>
 
-  "stack": {
-    "languages" : ["C++", "Java", "JavaScript", "Python"],
-    "frontend"  : ["React.js", "HTML5", "CSS3"],
-    "backend"   : ["Node.js", "Express.js"],
-    "databases" : ["MongoDB", "MySQL", "Oracle"]
-  },
+🚀 &nbsp;**Software Developer** passionate about clean code & problem solving
+<br/>
+💡 &nbsp;Turning complex problems into elegant solutions, one commit at a time
 
-  "currently_learning" : ["DSA 💪", "React ⚛️", "MERN Stack 🌐"],
-  "open_to"            : ["Open Source", "Collaboration", "Internships"],
-  "contact"            : "as4anmol@gmail.com",
+<br/><br/>
 
-  "fun_facts": [
-    "I debug with console.log and I'm not ashamed ⚡",
-    "sleep() is not in my dependencies 😅",
-    "git commit -m 'fixed everything' — trust me bro 😂"
-  ],
+![](https://img.shields.io/badge/🎯%20Focus-DSA%20%2B%20MERN%20Stack-0D0D0D?style=flat-square&labelColor=130F40&color=7B68EE)
+![](https://img.shields.io/badge/📍%20Based%20In-India-0D0D0D?style=flat-square&labelColor=130F40&color=7B68EE)
+![](https://img.shields.io/badge/☕%20Fuel-Coffee%20%C3%97%20%E2%88%9E-0D0D0D?style=flat-square&labelColor=130F40&color=7B68EE)
+![](https://img.shields.io/badge/🎧%20Vibe-Lo--Fi%20Hip%20Hop-0D0D0D?style=flat-square&labelColor=130F40&color=7B68EE)
 
-  "philosophy" : "First, solve the problem. Then, write the code.",
-  "currently"  : {
-    "music"    : "lo-fi hip hop 🎧",
-    "drinking" : "coffee ☕ × ∞",
-    "mood"     : "in the zone 🚀"
-  }
-}
-```
+<br/>
+
+| | |
+|---|---|
+| 🔭 **Working On** | MERN Stack Projects + DSA Grind |
+| 🌱 **Learning** | React.js · JavaScript ES6+ · Algorithms |
+| 💬 **Ask Me About** | C/C++ · Java · DBMS · Problem Solving |
+| 🤝 **Open To** | Collaborations · Open Source · Internships |
+| 📫 **Reach Me** | as4anmol@gmail.com |
+| ⚡ **Fun Fact** | `git commit -m "fixed everything"` — trust me bro 😂 |
+
+<br/>
+
+> *"First, solve the problem. Then, write the code."*
+
+<br/>
 
 </td>
 </tr>
@@ -294,31 +289,5 @@
 </div>
 
 <!-- ═══════════════════════════════════════════ -->
-<!--  SETUP REQUIRED — READ BELOW               -->
-<!--                                            -->
-<!--  To enable the SNAKE animation:            -->
-<!--  1. Go to your repo → Actions tab          -->
-<!--  2. New workflow → set up yourself          -->
-<!--  3. Paste this YAML:                        -->
-<!--                                            -->
-<!--  name: Generate Snake                      -->
-<!--  on:                                       -->
-<!--    schedule:                               -->
-<!--      - cron: "0 */12 * * *"               -->
-<!--    workflow_dispatch:                      -->
-<!--  jobs:                                     -->
-<!--    build:                                  -->
-<!--      runs-on: ubuntu-latest               -->
-<!--      steps:                               -->
-<!--        - uses: Platane/snk@v3             -->
-<!--          with:                            -->
-<!--            github_user_name: as4anmol    -->
-<!--            outputs: |                    -->
-<!--              dist/github-contribution-grid-snake.svg                      -->
-<!--              dist/github-contribution-grid-snake-dark.svg?palette=github-dark -->
-<!--        - uses: crazy-max/ghaction-github-pages@v3 -->
-<!--          with:                            -->
-<!--            target_branch: output          -->
-<!--            build_dir: dist               -->
-<!--          env:                            -->
-<!--            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} -->
+<!--   Zero-setup animations — all work live    -->
+<!-- ═══════════════════════════════════════════ -->
